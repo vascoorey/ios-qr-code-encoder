@@ -17,6 +17,6 @@ Feel free to get in touch with us in regards to any questions or cooperation req
   s.platform     = :ios, '6.0'
   s.requires_arc = true
 
-  s.source_files = '**/*'
+  s.source_files = '*.{h,m}', '**/*.{h,c}'
 
 end
